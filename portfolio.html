@@ -1,65 +1,135 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Sandra Hernández's Portfolio</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Sura:700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/36bed53145.js"></script>
+        <title>Sandra Hernández</title>
 </head>
-
 <body>
-	<header>
-        <div>
-                <div class="name">
-                        <h1>Sandra Hernández</h1>
+        <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">Sandra Hernández</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" download>CV</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-lg-3 frame-down-left">
                 </div>
-                <nav>
-                        <a href="index.html">About</a>&nbsp; | &nbsp;
-                        <a href="portfolio.html">Portfolio</a>&nbsp; | &nbsp;
-                        <a href="contact.html">Contact</a>
-                </nav>
-        </div>
-    </header>
+                <div class="col-sm-12 col-md-8 col-lg-6 name">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="col-md-2 col-lg-3 frame-top-right">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="assets/images/portfolio-1-thumb.jpg" alt="Hangman">
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Hangman</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> Code</button></a>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fas fa-globe-americas"></i> Demo</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">RPG Game</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> Code</button></a>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fas fa-globe-americas"></i> Demo</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="assets/images/portfolio-2-thumb.jpg" alt="RPG Game">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="assets/images/portfolio-3-thumb.jpg" alt="Trivia Game">
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Trivia Game</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> Code</button></a>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fas fa-globe-americas"></i> Demo</button></a>
+                    </div>
+                </div>
+            </div>
     
-	<main>
-        <h2 class="section-name">Portfolio</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Rutgers Info Widget</h3>              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> Code</button></a>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fas fa-globe-americas"></i> Demo</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="assets/images/portfolio-4-thumb.jpg" alt="Rutgers Info Widget">
+                </div>
+            </div>
         
-        <div class="portfolio">
-            <figure class="portfolio-item">
-                <img class="img-portfolio" src="assets/images/portfolio-1-thumb.jpg" alt="Hangman" width="275" height="200"/>
-                <div class="name-portfolio">Hangman</div>
-            </figure>
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <img class="img-fluid" src="assets/images/portfolio-5-thumb.jpg" alt="Rock Paper Scissors">
+                </div>
+                <div class="col-sm-12 col-md-9">
+                    <div class="card-body">
+                        <h3 class="card-title">Rock Paper Scissors</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> Code</button></a>
+                        <a href="#" target="_blank"><button type="button" class="btn btn-dark"><i class="fas fa-globe-americas"></i> Demo</button></a>
+                    </div>
+                </div>
+            </div>
 
-           <figure class="portfolio-item">
-                <img class="img-portfolio" src="assets/images/portfolio-2-thumb.jpg" alt="RPG game" width="275" height="200"/>
-                <div class="name-portfolio">RPG game</div>
-            </figure>
 
-            <figure class="portfolio-item">
-                <img class="img-portfolio" src="assets/images/portfolio-3-thumb.jpg" alt="Trivia Game" width="275" height="200"/>
-                <div class="name-portfolio">Trivia Game</div>
-            </figure>
-
-            <figure class="portfolio-item">
-                <img class="img-portfolio" src="assets/images/portfolio-4-thumb.jpg" alt="Rutgers Info Widget" width="275" height="200"/>
-                <div class="name-portfolio">Rutgers Info Widget</div>
-            </figure>
-
-            <figure class="portfolio-item">
-                <img class="img-portfolio" src="assets/images/portfolio-5-thumb.jpg" alt="Rock Paper Scissors" width="275" height="200"/>
-                <div class="name-portfolio">Rock Paper Scissors</div>
-            </figure>
         </div>
 
-    </main>
-	
-	<footer>
-        <div class="footer">
-            <small>Copyright &#169;</small>
-        </div>
-	</footer>
 
+        <footer class="footer">
+                <div class="container">
+                  <span class="text"><small>Copyright &#9400;</small></span>
+                </div>
+        </footer>
+
+        <!-- Bootstrap Javascript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
 </body>
-
 </html>
-
