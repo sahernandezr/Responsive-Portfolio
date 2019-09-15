@@ -1,54 +1,98 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Sandra Hernández's Portfolio</title>
-	<link rel="stylesheet" href="assets/css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Sura:700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/36bed53145.js"></script>
+        <title>Sandra Hernández</title>
 </head>
-
 <body>
-	<header>
-        <div>
-                <div class="name">
-                        <h1>Sandra Hernández</h1>
+        <nav class="navbar sticky-top navbar-expand-md bg-dark navbar-dark">
+                <a class="navbar-brand" href="index.html">Sandra Hernández</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" download>CV</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-2 col-lg-3 frame-down-left">
+                        </div>
+                        <div class="col-sm-12 col-md-8 col-lg-6 name">
+                                <h2>Contact</h2>
+                        </div>
+                        <div class="col-md-2 col-lg-3 frame-top-right">
+                        </div>
                 </div>
-                <nav>
-                        <a href="index.html">About</a>&nbsp; | &nbsp;
-                        <a href="portfolio.html">Portfolio</a>&nbsp; | &nbsp;
-                        <a href="contact.html">Contact</a>
-                </nav>
-        </div>
-</header>
-    
-	<main>
-                <h2 class="section-name">Contact</h2>
+
+                <div class="row contact-buttons">
+                        <div class="col-sm-6 col-md-6">
+                                <a href="https://github.com/sahernandezr" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</button></a>        
+                        </div>
+                                
+
+                        <div class="col-sm-6 col-md-6">
+                                <a href="https://www.linkedin.com/in/sandra-hern%C3%A1ndez-ram%C3%ADrez-b75b57113/" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-linkedin"></i> LinkedIn</button></a>
+                        </div>
         
-                <form action="mailto:sandra.hernandez.ramirez@gmail.com?Subject=Contact" accept-charset="UTF-8">
-                        Name
-                        <br/> 
-                        <input type="text" name="Name" placeholder="John Smith">
-
-                        <br/>
-                        Email
-                        <br/> 
-                        <input type="email" name="Email" placeholder="example@gmail.com">
-                        <br/>
-                        Message
-                        <br/>
-                        <textarea rows=8 cols=50></textarea>
-                        <br/>
-                        <button type="submit">Submit</button>
-                </form>
-        </main>
-	
-	<footer>
-                <div class="footer">
-                        <small>Copyright &#169;</small>
                 </div>
-	</footer>
 
+                <div class="row">
+                        <div class="col-12">
+                                <form>
+                                        <div class="form-group">
+                                                <label>Name</label>
+                                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                        </div>
+                                        <div class="form-group">
+                                                <label>Email address</label>
+                                                        <input type="email" class="form-control" id="email" placeholder="name@gmail.com">
+                                        </div>
+                                        <div class="form-group">
+                                                        <label>Message</label>
+                                                                <input type="text" class="form-control" id="message" rows="3">
+                                                </div>
+                                
+                                        <button type="submit" class="btn btn-dark">Submit</button>
+                                
+                                </form>
+                        </div>
+                </div>
+        </div>
+
+
+        <footer class="footer">
+                <div class="container">
+                  <span class="text"><small>Copyright &#9400;</small></span>
+                </div>
+        </footer>
+
+        <!-- Bootstrap Javascript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
 </body>
-
 </html>
-

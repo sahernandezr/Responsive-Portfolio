@@ -1,5 +1,15 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: #ffe600;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-top: 20px;
 }
 
 .about {
@@ -14,12 +24,27 @@ h1 {
     font-size: 60px;
 }
 
-.frame-right {
+h2 {
+    font-family: 'Sura', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: 'Sura', serif;
+    font-size: 26px;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.frame-top-right {
     border-right: 10px black solid;
     border-top: 10px black solid;
 }
 
-.frame-left {
+.frame-down-left {
     border-left: 10px black solid;
     border-bottom: 10px black solid;
 }
@@ -39,10 +64,7 @@ h1 {
 .row {
     max-width: 85%;
     margin: auto auto;
-}
-
-.button-set {
-    padding-top: 20px
+    padding-top: 5px;
 }
 
 .col-sm-12 {
@@ -61,16 +83,21 @@ a:hover {
     text-decoration: none;
   }
 
-  .footer {
+.footer {
     position: absolute;
     bottom: 0;
-    height: 30px; /* Set the fixed height of the footer here */
-    line-height: 30px; /* Vertically center the text there */
+    height: 50px; /* fixed height of the footer */
+    line-height: 30px; /* vertically center the text */
     width: 100%;
-    background-color: black !important;
+    background-color: #343a40 !important;
     color: #ffffff !important;
   }
 
   footer {
       text-align: center;
   }
+
+.contact-buttons {
+    text-align: center;
+    padding: 20px;
+}
